@@ -25,8 +25,4 @@ public class DefaultTestFinishedEvent implements TestFinishedEvent {
         return testClassInstance.getClass().getSimpleName() + "." + testMethodName;
     }
 
-    @Override
-    public boolean isRunFinished() {
-        return true;
-    }
 }
